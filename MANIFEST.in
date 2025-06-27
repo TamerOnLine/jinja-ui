@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include jinja_i18n_tools *.cfg
+recursive-include screenshots *.gif
