@@ -1,0 +1,400 @@
+# German translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-28 23:37+0200\n"
+"PO-Revision-Date: 2025-06-28 23:37+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: de <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/_termui_impl.py:600
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/_termui_impl.py:600
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr "{Editor}: Bearbeitung fehlgeschlagen"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/_termui_impl.py:604
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/_termui_impl.py:604
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr "{Editor}: Bearbeitung fehlgeschlagen: {e}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1084
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1121
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1084
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1121
+#, python-brace-format
+msgid "{text} {deprecated_message}"
+msgstr "{text} {deprescated_message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1140
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1140
+msgid "Options"
+msgstr "Optionen"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1202
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1202
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1221
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1221
+#, python-brace-format
+msgid "DeprecationWarning: The command {name!r} is deprecated.{extra_message}"
+msgstr "AbwertungWarning: Der Befehl {Name! R} ist veraltet. {Extra_message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1405
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1405
+msgid "Aborted!"
+msgstr "Abgebrochen!"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1779
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1779
+msgid "Commands"
+msgstr "Befehle"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1810
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1810
+msgid "Missing command."
+msgstr "Fehlender Befehl."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:1888
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:1888
+#, python-brace-format
+msgid "No such command {name!r}."
+msgstr "Kein solcher Befehl {Name! R}."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2303
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2303
+msgid "Value must be an iterable."
+msgstr "Der Wert muss iterbar sein."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2324
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2324
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2404
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2404
+#, python-brace-format
+msgid ""
+"DeprecationWarning: The {param_type} {name!r} is deprecated.{extra_message}"
+msgstr ""
+"AbschaltungWarning: Die {param_type} {name! R} ist veraltet. {Extra_message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2807
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2807
+#, python-brace-format
+msgid "env var: {var}"
+msgstr "Env war: {war}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2810
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2810
+#, python-brace-format
+msgid "default: {default}"
+msgstr "Standard: {Standard}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2814
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2814
+msgid "required"
+msgstr "erforderlich"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/core.py:2870
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/core.py:2870
+msgid "(dynamic)"
+msgstr "(dynamisch)"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/decorators.py:465
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr "%(prog) s, Version %(Version) s"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/decorators.py:522
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/decorators.py:522
+msgid "Show the version and exit."
+msgstr "Zeigen Sie die Version und beenden Sie."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/decorators.py:548
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/decorators.py:548
+msgid "Show this message and exit."
+msgstr "Zeigen Sie diese Nachricht und beenden Sie."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:50
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:89
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:50
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:89
+#, python-brace-format
+msgid "Error: {message}"
+msgstr "Fehler: {message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:81
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:81
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr "Versuchen Sie '{Befehl} {option}' für Hilfe."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:130
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:130
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr "Ungültiger Wert: {Nachricht}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:132
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:132
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr "Ungültiger Wert für {param_hint}: {message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:190
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:190
+msgid "Missing argument"
+msgstr "Fehlendes Argument"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:192
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:192
+msgid "Missing option"
+msgstr "Fehlende Option"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:194
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:194
+msgid "Missing parameter"
+msgstr "Fehlender Parameter"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:196
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:196
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr "Fehlen {param_type}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:203
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:203
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr "Fehlender Parameter: {param_name}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:223
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:223
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr "Keine solche Option: {Name}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:235
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:235
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:282
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:282
+msgid "unknown error"
+msgstr "Unbekannter Fehler"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/exceptions.py:289
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/exceptions.py:289
+#, python-brace-format
+msgid "Could not open file {filename!r}: {message}"
+msgstr "Konnte keine Datei {Dateiname! R}: {message} öffnen"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/formatting.py:156
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/formatting.py:156
+msgid "Usage:"
+msgstr "Verwendung:"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/parser.py:200
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/parser.py:200
+#, python-brace-format
+msgid "Argument {name!r} takes {nargs} values."
+msgstr "Argument {name! R} nimmt {nargs} Werte."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/parser.py:383
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/parser.py:383
+#, python-brace-format
+msgid "Option {name!r} does not take a value."
+msgstr "Option {Name! R} nimmt keinen Wert."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/parser.py:444
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/parser.py:444
+#, python-brace-format
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/shell_completion.py:326
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/shell_completion.py:326
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+"Die Abschluss der Shell wird nicht für Bash -Versionen unterstützt, die "
+"älter als 4,4 sind."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/shell_completion.py:333
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/shell_completion.py:333
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+"Konnte die Bash -Version nicht erkennen, wird die Shell -Fertigstellung "
+"nicht unterstützt."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:162
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:162
+msgid "Repeat for confirmation"
+msgstr "Wiederholen Sie dies zur Bestätigung"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:178
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:178
+msgid "Error: The value you entered was invalid."
+msgstr "Fehler: Der von Ihnen eingegebene Wert war ungültig."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:180
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:180
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr "Fehler: {E.Message}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:191
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:191
+msgid "Error: The two entered values do not match."
+msgstr "Fehler: Die beiden eingegebenen Werte stimmen nicht überein."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:247
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:247
+msgid "Error: invalid input"
+msgstr "Fehler: Ungültige Eingabe"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/termui.py:866
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/termui.py:866
+msgid "Press any key to continue..."
+msgstr "Drücken Sie jede Taste, um fortzufahren ..."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:332
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:332
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+"Wählen Sie aus:\n"
+"\t{Auswahl}"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:369
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:369
+#, python-brace-format
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:460
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:460
+#, python-brace-format
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:482
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:482
+#, python-brace-format
+msgid "{value!r} is not a valid {number_type}."
+msgstr "{value! R} ist kein gültiges {number_type}."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:538
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:538
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr "{value} liegt nicht im Bereich {Bereich}."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:679
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:679
+#, python-brace-format
+msgid "{value!r} is not a valid boolean."
+msgstr "{value! R} ist kein gültiger Booleschen."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:703
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:703
+#, python-brace-format
+msgid "{value!r} is not a valid UUID."
+msgstr "{value! r} ist kein gültiges UUID."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:893
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:893
+msgid "file"
+msgstr "Datei"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:895
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:895
+msgid "directory"
+msgstr "Verzeichnis"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:897
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:897
+msgid "path"
+msgstr "Weg"
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:944
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:944
+#, python-brace-format
+msgid "{name} {filename!r} does not exist."
+msgstr "{Name} {Dateiname! R} existiert nicht."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:953
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:953
+#, python-brace-format
+msgid "{name} {filename!r} is a file."
+msgstr "{Name} {Dateiname! R} ist eine Datei."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:961
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:961
+#, python-brace-format
+msgid "{name} {filename!r} is a directory."
+msgstr "{Name} {Dateiname! R} ist ein Verzeichnis."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:970
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:970
+#, python-brace-format
+msgid "{name} {filename!r} is not readable."
+msgstr "{Name} {Dateiname! R} ist nicht lesbar."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:979
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:979
+#, python-brace-format
+msgid "{name} {filename!r} is not writable."
+msgstr "{Name} {Dateiname! R} ist nicht beschreibbar."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:988
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:988
+#, python-brace-format
+msgid "{name} {filename!r} is not executable."
+msgstr "{Name} {Dateiname! R} ist nicht ausführbar."
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/click/types.py:1055
+#: T:/jinja-ui/venv_docs/Lib/site-packages/click/types.py:1055
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: T:/jinja-ui/venv_dev/Lib/site-packages/mypy/main.py:423
+#, python-format
+msgid "%(prog)s: error: %(message)s\n"
+msgstr "%(prog) S: Fehler: %(Nachricht) s"

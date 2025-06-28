@@ -1,0 +1,17 @@
+usage: __main__.py [-h]
+                   {extract,init,translate,translate-all,compile,full} ...
+
+Jinja i18n Tools CLI
+
+positional arguments:
+  {extract,init,translate,translate-all,compile,full}
+    extract             Extract translatable strings.
+    init                Initialize languages.
+    translate           Translate to specific language.
+    translate-all       Translate all languages.
+    compile             Compile translations.
+    full                Run full process (extract -> init -> translate ->
+                        compile)
+
+options:
+  -h, --help            show this help message and exit
