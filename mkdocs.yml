@@ -1,0 +1,49 @@
+site_name: Jinja UI
+# site_url: https://tameronline.github.io/jinja-ui/
+repo_url: https://github.com/TamerOnLine/jinja-ui
+repo_name: GitHub
+
+docs_dir: src/docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+  palette:
+    scheme: default
+    primary: blue
+    accent: light blue
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  logo: images/logo.png
+  favicon: images/favicon.ico
+
+nav:
+  - 🏠 Home: index.md
+  #- 📖 Getting Started:
+  #    - Installation: getting-started/installation.md
+  #    - Quick Start: getting-started/quickstart.md
+  #- ⚙️ CLI Usage: cli/usage.md
+  #- 🧱 Architecture: architecture.md
+  #- 📦 API Reference:
+  #    - CLI Module: api/cli.md
+  #    - Utils Module: api/utils.md
+  #- ❓ FAQ: faq.md
+  #- 👥 Contributing: contributing.md
+  - 📜 License: license.md
+  - 🧑‍💻 About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true

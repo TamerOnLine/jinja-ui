@@ -2,4 +2,6 @@ Jinja2>=3.1.2
 Babel
 deep-translator
 polib
-setuptools
+jinja_i18n_tools
+
+

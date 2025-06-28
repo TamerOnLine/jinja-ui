@@ -8,6 +8,10 @@ gitingest.txt
 *info/
 publish.py
 publish_test.py
+venv_switcher.py
+summary_tree.txt
+Dev_requirements.txt
+gh-pages-requirements.txt
 
 # C extensions
 *.so
@@ -137,7 +141,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+venv*/
 ENV/
 env.bak/
 venv.bak/

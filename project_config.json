@@ -1,0 +1,7 @@
+{
+  "project_name": "Jinja UI",
+  "author": "Tamer Hamad Faour",
+  "year": 2025,
+  "description": "A reusable UI component system powered by Jinja2.",
+  "github_url": "https://github.com/TamerOnLine/jinja-ui"
+}
