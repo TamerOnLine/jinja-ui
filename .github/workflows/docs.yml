@@ -3,7 +3,7 @@ name: 📘 Build and Deploy MkDocs
 on:
   push:
     branches:
-      - main  # أو branch آخر حسب مشروعك
+      - main
 
 jobs:
   deploy:
@@ -22,13 +22,10 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: 🔧 Configure Git
+      - name: 🔧 Configure Git identity
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: 🚀 Deploy MkDocs to GitHub Pages
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          mkdocs gh-deploy --force --remote-branch gh-pages --remote-name origin
+        run: mkdocs gh-deploy --force
