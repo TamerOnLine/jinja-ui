@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # ضروري للسماح بالدفع إلى gh-pages
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,12 +23,14 @@ jobs:
 
       - name: 📦 Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
-
-      - name: 🔧 Configure Git identity
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          pip install -r gh-pages-requirements.txt
 
       - name: 🚀 Deploy MkDocs to GitHub Pages
-        run: mkdocs gh-deploy --force
+        env:
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "$GIT_COMMITTER_NAME"
+          git config --global user.email "$GIT_COMMITTER_EMAIL"
+          mkdocs gh-deploy --force
