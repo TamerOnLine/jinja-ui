@@ -27,6 +27,7 @@ extra:
 
 nav:
   - 🏠 Home: index.md
+  - 🌍 GitHub Pages: gh-pages.md
   #- 📖 Getting Started:
   #    - Installation: getting-started/installation.md
   #    - Quick Start: getting-started/quickstart.md
